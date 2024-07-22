@@ -1,0 +1,44 @@
+.tabcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.activeClass {
+  font-size: 18px;
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fec653;
+  margin-bottom: 0px;
+}
+.normalClass {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.underline {
+  border: #fec653 solid 2px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  .normalClass {
+    font-size: 12px;
+  }
+  .activeClass{
+    font-size: 12px;
+  }
+}

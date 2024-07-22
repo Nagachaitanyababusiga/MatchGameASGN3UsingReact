@@ -1,0 +1,21 @@
+.listitemcont {
+  margin: 10px;
+  padding: 10px;
+}
+.thumbnailicon {
+  height: 100px;
+  width: 100px;
+}
+.thumbnailbtn {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 575px) {
+  .thumbnailicon {
+    height: 80px;
+    width: 80px;
+  }
+}
